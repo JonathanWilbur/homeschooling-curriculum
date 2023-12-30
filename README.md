@@ -1,0 +1,350 @@
+# Homeschooling Curriculum
+
+## Schema
+
+Declarative "understandings / concepts" with associated imperative "activities."
+
+- Videos
+- Products
+- Examples
+- Categorical Parent Item
+- Dependencies
+- Age
+- Controversial / Objectionable
+- Locale Specific
+
+Every concept should have an activity, ideally.
+
+Should these be organized into categories? I am finding a lot of these to be
+cross-cutting...
+
+<!-- Maybe categories could be defined as the benefits:
+
+- Utility
+- Knowledge Itself
+- Spiritual -->
+
+## Activities List
+
+- Sports
+  - Swimming
+  - Weightlifting
+  - Running
+  - Golf
+  - Archery
+  - Fishing
+  - Airsoft
+  - Paintball
+  - Geocaching
+  - Hiking
+  - Birdwatching
+  - Yoga
+  - Camping / Wilderness Survival
+    - Pitching a Tent
+    - Making a Fire
+    - Cutting Down a Tree
+    - Chopping Wood
+    - Distilling Water
+- Biology
+  - Ant Farm
+  - Evolution and Natural Selection
+  - Medicine
+    - What Casts are
+      - Make a cast
+    - Ride around in a wheelchair
+    - Use crutches
+    - Painkillers
+  - Anatomy and Physiology
+    - Ear, Nose, and Throat Endoscopy
+    - Electroencephalography
+  - Microscopy
+  - Fermenting
+  - Composting
+  - Agriculture / Horticulture
+    - Grow food
+    - What Cover Crops are
+- Technology
+  - Download Satellite Images
+  - HAM Radio CQ
+  - Telescopy
+  - Electronics
+    - Create a Half-Adder from Transistors
+    - Create a beeping alarm with a 555 timer IC
+  - Computing
+    - Arduino Microcontroller project?
+    - Raspberry Pi project?
+    - POSIX Shell Computing
+- Geology, Space, and Aeronautics
+  - Constellations
+  - Satellites
+  - Pilot a Drone
+  - Launch Rockets
+  - GPS
+- Politics
+  - Go to a Town Hall Meeting
+  - U.S. Constitution
+  - International Relations
+  - Military and Law Enforcement
+    - Crime
+      - Drugs / Narcotics / Gambling / Addition
+    - Mock Arrest
+    - Mock Speeding Ticket
+    - Mock Prison
+    - Technology
+    - Branches of the Military
+    - Mock Drills / Boot-Camp
+    - Ballistics
+    - Technology
+      - Tanks
+      - Aircraft Carriers
+      - Warships
+      - Bombers
+      - Jets
+      - Helicopters
+      - Drones
+      - Submarines
+      - Mortars
+      - Grenades
+      - Mines
+      - Tripwires
+      - Pepper Spray
+      - Barbed-Wire Fence
+      - Handcuffs
+      - Watch Towers
+      - Coherent Change Detection
+      - Thermal Vision
+      - Night Vision
+      - Incendiary Rounds
+      - ICBMs
+      - SAMs
+      - Armor-Piercing Rounds
+      - Camouflage
+- Finance
+  - Accounting
+  - Banking
+  - Writing a Check
+  - Payment Cards
+  - Credit / Debt
+  - Stocks
+  - Bonds
+  - Mutual Funds
+  - ETFs
+  - Options
+  - Insurance
+  - Taxes
+  - Retirement Accounts
+  - Health Savings Accounts
+  - Inheritance
+- Legal
+  - Courts
+  - Trusts
+  - Wills
+  - Civil vs. Criminal Law
+  - Mock Court
+  - Contract Law
+- Safety
+  - Fire Safety
+    - Practice putting out a backyard fire
+    - Smoke Alarms / CO Alarms
+  - Ladders, Stairs, Heights, Slips, and Falls Safety
+    - Practice getting up and down a ladder safely
+    - How to fall on your feet from high up (TLDR: bend your knees and roll forward)
+  - First Aid
+    - Practice CPR
+  - Physical Safety
+    - What to watch for in other people
+  - Home Security
+    - Types of Locks
+    - Alarm System
+    - Camera System
+    - Motion Detection
+  - Road Safety
+    - Wear a Seatbelt
+    - Look both ways
+    - How to install a carseat
+    - How to put a baby in a carseat
+  - Dial 911
+  - Firearm Safety
+  - Chemical Safety
+  - Sharp Object Safety
+  - Electrical Safety
+- Language
+  - What every language sounds like
+  - Language guessing game
+- The Arts
+  - Music
+    - Piano
+    - Guitar
+    - Drums
+    - Reading Music
+    - Violin
+    - Audio Engineering
+  - Theater
+    - Scripts
+    - Props
+    - Lighting
+    - Fog Machines
+  - Claymation
+  - Photography
+  - Painting
+  - Interior Decorating
+    - Trip to IKEA
+- Professional Skills
+  - Telephony
+  - Fax
+  - Printing
+  - Scanning
+  - Mailing / The Postal System
+    - Carriers: USPS, UPS, FedEx, DHL, etc.
+    - Tracking
+    - Signatures
+    - Overnight
+    - Priority
+    - Media Mail
+  - Receipts
+  - Invoices
+  - Statements
+  - Sales Orders
+  - Purchase Orders
+  - Statements of Work
+  - Bill of Sale
+  - Purchase Agreements
+  - Project Management
+- Social Skills
+  - Clothing / Fashion
+  - Conversational Skills
+  - Bartending / Drink Mixing / Alcohol
+  - Table Manners
+  - Cotillion
+  - Magic Tricks
+- Martial Skills
+  - Firearms
+  - Wrestling
+  - Melee Self-Defense
+- Physics and Mechanics
+  - Hydraulics and Pneumatics
+    - Air Compressor
+    - Vacuum
+    - Valve
+    - Pressure Relief Valve
+    - O-Rings
+    - Seals
+    - Water Hammer
+    - Pumps
+    - Desiccants
+    - Filters
+    - Siphon
+    - Buoyancy
+  - Woodworking
+    - Planer
+    - Staining
+    - Sanding
+    - Table Saw
+    - Miter Saw
+    - Dovetails
+    - Brackets
+  - Building Construction
+    - Trusses
+    - Cinder Blocks
+    - Permitting
+    - Zoning
+    - HVAC Systems
+      - Heat Pumps
+      - Condensers
+      - Plumbing
+  - Welding
+    - Mig Welding
+    - Tig Welding
+    - Arc Welding
+  - PVC Work
+  - Hand Tools
+    - Box Wrench
+    - Sockets
+    - Screwdrivers
+    - Hacksaw
+    - Pliers
+    - Vice Grip
+    - Channel Locks
+    - Tape Measure
+    - Level
+    - Hammer
+    - File
+    - Razor
+  - Power Tools
+    - Screwdriver
+    - Drill
+    - Drill press
+    - Plasma Cutter
+    - Bench Grinder
+    - Sander
+    - Reciprocating Saw
+    - Torch (Not really a "power tool")
+  - Automotive
+    - Changing Oil on Cars
+    - Changing Air Filters on Cars
+    - Changing Brakes and Rotors
+    - Flushing the Radiator
+    - Drive a Manual Transmission
+    - Get OBDII Readings
+    - Parts
+      - Differential
+      - Axle
+      - Brakes and Rotors
+      - Transmission
+      - Alternator
+      - Batteries
+      - Exhaust / Muffler
+      - Ignition
+      - Injectors
+      - Air Intake
+- History
+  - Art History
+  - Music History
+  - Literary History
+- Religion
+  - The Bible
+  - The Catechism
+  - The Quran
+  - The Talmud
+  - The Poetic Eddas
+  - The Vedas
+- Games and Fun
+  - Obstacle Course
+  - Laser Hallway Game
+  - "The Floor is Lava"
+  - Trip to the Beach
+  - MOSI
+- Household Skills
+  - Changing the Air Filter
+  - The fuse box
+  - Tailoring / Sewing
+  - Culinary Arts
+    - Canning and Pickling
+  - Using the Microwave
+  - Using the Oven
+  - Using the Dishwasher
+  - Using the Clothes Washer and Dryer
+  - Using the Security Cameras
+  - Taking out the trash
+  - Plunging a toilet
+  - Cleaning a toilet
+- Business
+  - Supply Chains
+  - Intellectual Property
+  - Mergers and Acquisitions
+  - Share Buybacks
+  - IPOs
+  - Bankruptcy
+  - SEC Filings
+- Psychology
+- Geography
+  - Continents
+  - Oceans / Seas / Lakes
+  - Climates
+  - Significant Features: Suez Canal, Panama Canal, Bering Strait
+  - U.S. States
+  - Floridian Counties
+- Chemistry
+  - The Elements
+  - Acids and Bases
+- Mathematics
