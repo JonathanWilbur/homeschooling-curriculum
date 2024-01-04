@@ -24,7 +24,20 @@ cross-cutting...
 - Knowledge Itself
 - Spiritual -->
 
-## Activities List
+## Activities List / Concepts
+
+- Fruits / Foods, colors and cutting and preparing
+- Light and Heavy
+- Hot and Cold
+- Sink and Float
+- Colors
+- Open and Close
+- Up and Down
+- Take and Give
+- AND, OR, XOR (One or the other), NOT, NAND (Neither)
+- Clothespins
+- Walk on painters tape (teaches kids to walk in a line, a precusor for a balance beam or stepping stones)
+- Stomp rocket
 
 - Sports
   - Swimming
